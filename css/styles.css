@@ -225,28 +225,60 @@ hr {
   /*PUFFS*/
   .background-1 {
     background-color: #f3f6b8;
-    height: 700px;
+    min-width: 768px;
+    height: 500px;
   }
   .puffs {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    justify-content: center;
-    align-items: center;
+    grid-template-rows: repeat(50px 200px 170px);
+    justify-content: space-around;
     margin-top: 40px;
-    width: 350px;
+    gap: 0px;
+    column-gap: 20px;
+    margin-left: 10%;
+  }
+  .puffs > div:nth-child(1) {
+    order: 1;
+  }
+  .puffs > div:nth-child(2) {
+    order: 2;
+  }
+  .puffs > div:nth-child(3) {
+    order: 3;
+  }
+  .puffs > div:nth-child(4) {
+    order: 4;
+  }
+  .puffs > div:nth-child(5) {
+    order: 7;
+  }
+  .puffs > div:nth-child(6) {
+    order: 5;
+  }
+  .puffs > div:nth-child(7) {
+    order: 8;
+  }
+  .puffs > div:nth-child(8) {
+    order: 6;
+  }
+  .puffs > div:nth-child(9) {
+    order: 9;
   }
   .puff-img {
-    width: 350px;
+    width: 250px;
+    height: 200px;
     margin-top: 30px;
+    align-items: center;
   }
   .puff-text {
-    width: 350px;
+    width: 250px;
     height: 170px;
     background-color: rgba(255, 255, 255, 0.5);
     align-items: center;
     text-align: center;
-    align-content: top;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    padding: 2px;
   }
   /*PUFFS END*/
 }
