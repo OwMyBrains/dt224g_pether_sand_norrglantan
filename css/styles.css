@@ -110,6 +110,9 @@ hr {
   color: black;
   font-size: 20px;
 }
+.text {
+  padding: 20px;
+}
 /*HERO END*/
 /*PUFFS*/
 .background-1 {
@@ -141,6 +144,17 @@ hr {
   margin: -6px;
 }
 /*PUFFS END*/
+/*CALL-OUT*/
+.call-out {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  text-align: center;
+  margin-left: 40px;
+}
+/*CALL-OUT END*/
 /*END MAIN*/
 
 /*@MEDIA MIN-WIDTH 768PX*/
@@ -217,7 +231,7 @@ hr {
     border-radius: 5px;
     margin-left: 40px;
     margin-top: 20px;
-    padding: 20px;
+    padding: 10px 20px 20px 20px;
     background-color: rgba(252, 214, 164, 0.5);
     color: white;
     text-align: center;
@@ -266,6 +280,9 @@ hr {
   .puffs > div:nth-child(9) {
     order: 9;
   }
+  .puffs div {
+    width: 250px;
+  }
   .puff-img {
     width: 250px;
     height: 200px;
@@ -273,7 +290,6 @@ hr {
     align-items: center;
   }
   .puff-text {
-    width: 250px;
     height: 170px;
     background-color: rgba(255, 255, 255, 0.5);
     align-items: center;
@@ -282,4 +298,22 @@ hr {
     padding: 2px;
   }
   /*PUFFS END*/
+  /*CALL-OUT*/
+  .call-out {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    width: auto;
+    text-align: center;
+    margin-left: 40px;
+  }
+  .call-out p,
+  h2 {
+    text-align: left;
+  }
+  .call-out div {
+    width: 300px;
+  }
+  /*CALL-OUT END*/
 }
