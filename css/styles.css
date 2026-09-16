@@ -38,8 +38,9 @@ hr {
 .norrglantan {
   display: flex;
   align-items: first baseline;
-  justify-content: flex-start;
-  margin-left: 30px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 .norrglantan a {
   color: black;
@@ -80,7 +81,7 @@ hr {
 .hero-image {
   background-image: url("../images/hero.jpg");
   background-color: #b8b8b8;
-  height: 300px;
+  height: 200px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -96,8 +97,9 @@ hr {
   width: 350px;
   height: 300px;
   border-radius: 5px;
-  margin-left: 40px;
-  padding-top: 260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 170px;
 }
 .button {
   background-color: #fcd6a4;
@@ -111,7 +113,14 @@ hr {
   font-size: 20px;
 }
 .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   padding: 20px;
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
 }
 /*HERO END*/
 /*PUFFS*/
@@ -127,7 +136,8 @@ hr {
   align-items: center;
   margin-top: 40px;
   width: 350px;
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
   gap: 0px;
 }
 .puff-img {
@@ -152,7 +162,8 @@ hr {
   align-items: center;
   width: 350px;
   text-align: center;
-  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 30px;
 }
 /*CALL-OUT END*/
@@ -172,6 +183,8 @@ hr {
   align-items: first baseline;
   justify-items: center;
   padding-top: 40px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .contact-logo {
   grid-column: 1/3;
@@ -226,6 +239,7 @@ hr {
     font-size: 70px;
     letter-spacing: 3px;
     margin-bottom: -10px;
+    margin-right: 40px;
   }
   .nav-links {
     display: flex;
@@ -274,7 +288,18 @@ hr {
     color: white;
     text-align: center;
   }
+  .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   /*HERO END*/
+
   /*PUFFS*/
   .background-1 {
     background-color: #f3f6b8;
@@ -285,11 +310,13 @@ hr {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(50px 200px 170px);
-    justify-content: space-around;
+    align-items: flex-start;
+    justify-content: center;
     margin-top: 40px;
     gap: 0px;
-    column-gap: 20px;
-    margin-left: 10%;
+    column-gap: 30px;
+    margin-left: auto;
+    margin-right: auto;
   }
   .puffs > div:nth-child(1) {
     order: 1;
