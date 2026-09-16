@@ -32,6 +32,29 @@ body {
 hr {
   border: 1px solid #b8b8b8;
 }
+/*Navigation header*/
+.nav:hover {
+  color: #d2a161;
+}
+/*Navigation footer*/
+.nav2:hover {
+  color: #a36f48;
+}
+/*Button in Hero and Call-out*/
+.button:hover {
+  background-color: #fccda4;
+}
+.button {
+  background-color: #fcd6a4;
+  width: 200px;
+  height: 40px;
+  border-radius: 5px;
+}
+.button a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
 /*END BODY STYLES*/
 
 /*HEADER - NAV */
@@ -64,6 +87,7 @@ hr {
   flex-direction: column;
   align-items: flex-start;
 }
+
 .nav-links a {
   text-decoration: none;
   font-size: 1.5rem;
@@ -100,17 +124,6 @@ hr {
   margin-left: auto;
   margin-right: auto;
   padding-top: 170px;
-}
-.button {
-  background-color: #fcd6a4;
-  width: 200px;
-  height: 40px;
-  border-radius: 5px;
-}
-.button a {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
 }
 .text {
   display: flex;
